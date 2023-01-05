@@ -12,6 +12,7 @@ main {
 nav{
     display: flex;
     justify-content:space-between;
+    padding: 5px;
 }
 input{
     width: 348px;
@@ -25,10 +26,35 @@ button{
     height: 31px;
     border: 1px solid rgba(204, 204, 204, 1);
 }
+#menu-logo {
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
 #procurar{
     display: flex;
     align-items: center;
 }
+#funcionalidades-usuario{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.funcionalidade {
+    width: 25px;
+}
+#video-principal {
+    width: 952px;
+    height: 500px;
+}
+iframe {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 700px;
+}
+
 
 #outros-videos {
     display: flex;
