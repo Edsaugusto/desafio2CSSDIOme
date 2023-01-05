@@ -47,7 +47,7 @@ button{
     width: 25px;
 }
 #video-principal {
-    width: 852px;
+    width: 852px;/*852px*/
     height: 500px;
 }
 #video {
@@ -61,9 +61,41 @@ button{
     margin-bottom: 16px;
 }
 #video-canal-interacoes {
-    padding-left: 78px;
+    padding-left: 69px;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+#info-canal{
+    display: flex;
+    align-items: center;
+}
+#informacoes{
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+}
+#informacoes h2, p{
+    font-size: 15px;
+}
+#inscreva-se{
+    background-color: rgba(204, 0, 0, 1);
+    width: 139px;
+    height: 40px;
+    border-radius: 2px;
+    color: #fff;
+}
+.interage {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gostei{
+    width: 60px;
+}
+.interage h3{
+    font-size: 14px;
 }
 #descricao{
     padding-left: 78px;  
