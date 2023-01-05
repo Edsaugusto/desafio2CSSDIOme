@@ -7,6 +7,7 @@ header {
 main {
     background-color: #faf8f8;
     display: flex;
+    padding-top: 20px;
 }
 
 nav{
@@ -46,7 +47,7 @@ button{
     width: 25px;
 }
 #video-principal {
-    width: 952px;
+    width: 852px;
     height: 500px;
 }
 #video {
@@ -60,4 +61,5 @@ button{
     display: flex;
     flex-direction: column;
     row-gap: 5px;
+    padding-left: 25px;
 }
