@@ -53,7 +53,7 @@ button{
 #video {
     display: flex;
     justify-content: right;
-    padding-right: 25px;
+    padding-right: 10px;
 }
 #video-titulo {
     padding-left: 78px;
@@ -112,17 +112,24 @@ button{
     font-weight: 400;
 }
 
-
 #outros-videos {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 16px;
     padding-left: 25px;
 }
 .mais-videos{
     display: flex;
+    column-gap: 16px;
 }
 .info-outros{
     display: flex;
     flex-direction: column;
+    row-gap: 8px;
+}
+.info-outros h2{
+    font-size: 16px;
+}
+.info-outros p{
+    font-size: 13px;
 }
