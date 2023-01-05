@@ -49,10 +49,10 @@ button{
     width: 952px;
     height: 500px;
 }
-iframe {
+#video {
     display: flex;
-    flex-direction: row-reverse;
-    width: 700px;
+    justify-content: right;
+    padding-right: 25px;
 }
 
 
