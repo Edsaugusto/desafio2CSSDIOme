@@ -97,8 +97,19 @@ button{
 .interage h3{
     font-size: 14px;
 }
-#descricao{
-    padding-left: 78px;  
+#video-visualizacao{
+    font-weight: 600;
+    display: flex;
+    padding: 16px 0px 16px 75px;
+}
+.dados-video{
+    font-size: 14px;
+    padding-right: 8px;
+}
+#descricao p{
+    padding-left: 78px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 
