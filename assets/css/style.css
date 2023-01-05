@@ -119,3 +119,10 @@ button{
     row-gap: 5px;
     padding-left: 25px;
 }
+.mais-videos{
+    display: flex;
+}
+.info-outros{
+    display: flex;
+    flex-direction: column;
+}
