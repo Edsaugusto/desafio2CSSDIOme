@@ -55,6 +55,19 @@ button{
     justify-content: right;
     padding-right: 25px;
 }
+#video-titulo {
+    padding-left: 78px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+#video-canal-interacoes {
+    padding-left: 78px;
+    display: flex;
+    align-items: center;
+}
+#descricao{
+    padding-left: 78px;  
+}
 
 
 #outros-videos {
