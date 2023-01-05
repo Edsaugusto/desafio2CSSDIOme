@@ -13,6 +13,22 @@ nav{
     display: flex;
     justify-content:space-between;
 }
+input{
+    width: 348px;
+    height: 30px;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    border-left: 1px solid rgba(204, 204, 204, 1);
+    border-top: 1px solid rgba(204, 204, 204, 1);
+}
+button{
+    width: 47px;
+    height: 31px;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+#procurar{
+    display: flex;
+    align-items: center;
+}
 
 #outros-videos {
     display: flex;
